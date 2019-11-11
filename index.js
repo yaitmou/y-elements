@@ -4,4 +4,4 @@
  *
  */
 import { CreatePageElement } from "./lib/createHtmlElement";
-exports.addElement = CreatePageElement;
+module.exports.addElement = CreatePageElement;
