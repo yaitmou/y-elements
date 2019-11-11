@@ -13,8 +13,19 @@
     "builder"
   ],
   "author": "Younss Ait Mou",
-  "license": "GPL",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaitmou/y-elements.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yaitmou/y-elements/issues"
+  },
+  "homepage": "https://github.com/yaitmou/y-elements#readme"
 }
