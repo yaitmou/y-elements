@@ -1,0 +1,20 @@
+{
+  "name": "y-elements",
+  "version": "1.0.0",
+  "description": "Create html element as blocks which can be put together to construct a web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "element",
+    "page",
+    "builder"
+  ],
+  "author": "Younss Ait Mou",
+  "license": "GPL",
+  "publishConfig": {
+    "access": "public"
+  }
+}
