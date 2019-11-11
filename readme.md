@@ -17,10 +17,23 @@ $ npm i y-elements
 2. Include it in your source file:
 
 ```javascript
-import { addElement } from "y-elements";
+import { CreatePageElement } from "y-elements";
+or;
+const { CreatePageElement } = require("y-elements");
 ```
 
 ## Example
+
+```javascript
+import { CreatePageElement } from "y-elements";
+
+let el = new CreatePageElement ({
+    tag: "span"
+    classList: ["container"],
+    parent: document.body,
+    innerHTML: "My awesome content, if any ;p"
+});
+```
 
 ## Authors
 
